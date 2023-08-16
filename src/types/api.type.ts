@@ -1,4 +1,4 @@
-export interface IndependenceActivist {
+export interface Activist {
   MNG_NO: number; // 관리 번호
   NAME_KO: string; // 이름 (한글)
   NAME_CH: string; // 이름 (한자)
@@ -23,5 +23,5 @@ export interface ActivistResponse {
   TOTAL_COUNT: number;
   PAGE_INDEX: number;
   PAGE_COUNT: number;
-  ITEMS: IndependenceActivist[];
+  ITEMS: Activist[];
 }
