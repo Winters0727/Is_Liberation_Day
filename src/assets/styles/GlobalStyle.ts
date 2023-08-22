@@ -1,7 +1,5 @@
 import { createGlobalStyle } from "styled-components";
 
-import 경기천년제목_Bold from "../fonts/경기천년제목_Bold.ttf";
-
 const GlobalStyle = createGlobalStyle`
   * {
     font-family: sans-serif;
@@ -12,9 +10,9 @@ const GlobalStyle = createGlobalStyle`
   }
 
   @font-face {
-    font-family: '경기천년제목';
+    font-family: 경기천년제목;
     font-style: bold;
-    src: url(${경기천년제목_Bold}) format(truetype);
+    src: local("경기천년제목"), url("../fonts/경기천년제목_Bold.ttf") format("truetype");
   }
 `;
 
