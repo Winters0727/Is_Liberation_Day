@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.8947eead.js",
-    "static/js/964.5290f227.chunk.js": "/static/js/964.5290f227.chunk.js",
-    "static/js/787.ff5cb565.chunk.js": "/static/js/787.ff5cb565.chunk.js",
-    "static/media/경기천년제목_Bold.ttf": "/static/media/경기천년제목_Bold.5c43e71406b53f8c0797.ttf",
-    "index.html": "/index.html",
-    "main.8947eead.js.map": "/static/js/main.8947eead.js.map",
-    "964.5290f227.chunk.js.map": "/static/js/964.5290f227.chunk.js.map",
-    "787.ff5cb565.chunk.js.map": "/static/js/787.ff5cb565.chunk.js.map"
+    "main.js": "/is_Liberation_Day/static/js/main.ea79901d.js",
+    "static/js/964.5290f227.chunk.js": "/is_Liberation_Day/static/js/964.5290f227.chunk.js",
+    "static/js/787.ff5cb565.chunk.js": "/is_Liberation_Day/static/js/787.ff5cb565.chunk.js",
+    "static/media/경기천년제목_Bold.ttf": "/is_Liberation_Day/static/media/경기천년제목_Bold.5c43e71406b53f8c0797.ttf",
+    "index.html": "/is_Liberation_Day/index.html",
+    "main.ea79901d.js.map": "/is_Liberation_Day/static/js/main.ea79901d.js.map",
+    "964.5290f227.chunk.js.map": "/is_Liberation_Day/static/js/964.5290f227.chunk.js.map",
+    "787.ff5cb565.chunk.js.map": "/is_Liberation_Day/static/js/787.ff5cb565.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8947eead.js"
+    "static/js/main.ea79901d.js"
   ]
 }
