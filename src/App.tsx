@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
 
-function App() {
+import Dday from "./pages/Dday";
+import NotDday from "./pages/NotDday";
+
+import DdayContext from "./contexts/DdayContext";
+
+import { 오늘은광복절입니까 } from "./services/main";
+
+const PageWrapper = styled.div`
+  display: flex;
+  padding: 32px 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+const App = () => {
+  const currentDatetime = new Date();
+  const isDday = 오늘은광복절입니까(currentDatetime);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DdayContext.Provider value={isDday}>
+        <PageWrapper>{isDday ? <Dday /> : <NotDday />}</PageWrapper>
+      </DdayContext.Provider>
     </div>
   );
-}
+};
 
 export default App;
